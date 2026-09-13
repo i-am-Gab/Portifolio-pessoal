@@ -12,10 +12,11 @@ preferências do usuário.
 
 ## Versões do projeto
 
-  Versão     Framework      Situação
-  ---------- -------------- --------------------
-  Versão 1   Bootstrap 5    Em desenvolvimento
-  Versão 2   Tailwind CSS   Planejada
+  | Versão | Framework | Situação |
+| -------- | ----- | ----------- |
+| A        | Bootstrap 5 | Desenvolvido |
+| B        | Tailwind CSS | Em desenvolvimento |
+
 
 A proposta é manter conteúdo, funcionalidades e identidade visual
 semelhantes nas duas implementações, possibilitando uma comparação entre
