@@ -1,4 +1,4 @@
-# Portfólio Pessoal --- Acessibilidade Digital
+# Portfólio Pessoal - Acessibilidade Digital
 
 Portfólio pessoal desenvolvido para a disciplina de **Programação Web**,
 com o objetivo de apresentar minha trajetória acadêmica, projetos,
