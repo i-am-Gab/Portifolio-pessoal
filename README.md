@@ -152,7 +152,7 @@ permitindo maior controle sobre a construção visual diretamente no HTML.
 Clone o repositório:
 
 ``` bash
-git clone URL-DO-REPOSITORIO
+git clone https://github.com/i-am-Gab/Portifolio-pessoal.git
 ```
 
 Acesse a pasta:
