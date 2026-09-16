@@ -74,17 +74,31 @@
                             Sobre
                         </a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#atuacoes">Atuações</a></li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#atuacoes">
+                            Atuações
+                        </a>
+                    </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="#acessibilidade">
                             Acessibilidade
                         </a>
                     </li>
-
                     
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos">
+                            Projetos
+                        </a>
+                    </li>
 
-                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#case-sucesso">
+                            Case de sucesso
+                        </a>
+                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#pesquisa">
                             Pesquisa
@@ -426,6 +440,7 @@
                     <p class="reading-label">PROJETOS</p>
                     <h2 id="titulo-projetos" class="display-6 fw-bold">Trabalhos e projetos</h2>
                     <p class="reading-intro mb-4">Projetos relacionados à acessibilidade e à qualidade de produtos digitais.</p>
+                    <p><a class="case-link" href="#case-sucesso">Conheça o case de sucesso em acessibilidade</a></p>
                     <div class="row g-4">
                     <div class="col-12 col-md-6">
                         <article class="project-card h-100 d-flex flex-column">
@@ -512,8 +527,68 @@
                 </div>
             </section>
 
+    <!-- ==================== CASE DE SUCESSO ==================== -->
+    <section id="case-sucesso" class="reading-section case-section" aria-labelledby="titulo-case">
+        <div class="container">
+            <p class="reading-label">CASE DE SUCESSO</p>
+            <h2 id="titulo-case" class="display-6 fw-bold">Accessibility by Design</h2>
+            <p class="reading-intro case-intro">Da correção de problemas à acessibilidade integrada ao desenvolvimento.</p>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <article class="reading-panel case-story h-100">
+                        <p class="reading-label">01 · ENTENDER O PROBLEMA</p>
+                        <h3>Causa</h3>
+                        <p>A acessibilidade era tratada de forma predominantemente corretiva, após a implementação das interfaces, gerando <strong>retrabalho e recorrência de problemas</strong> em diferentes telas do sistema.</p>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <article class="reading-panel case-story h-100">
+                        <p class="reading-label">02 · MUDAR O PROCESSO</p>
+                        <h3>Solução</h3>
+                        <p>Foi estruturada uma abordagem de <strong>Accessibility by Design</strong>, baseada em componentização acessível, uma cartilha técnica com <strong>42 orientações</strong>, capacitação das equipes e integração da acessibilidade ao fluxo de desenvolvimento.</p>
+                    </article>
+                </div>
+            </div>
+
+            <article class="reading-panel case-results" aria-labelledby="titulo-resultado-case">
+                <p class="reading-label">03 · ACOMPANHAR O IMPACTO</p>
+                <h3 id="titulo-resultado-case">Resultado</h3>
+                <p class="case-scope">A análise dos <strong>12 critérios de acessibilidade mais recorrentes</strong> mostrou uma queda na incidência média de não conformidades: de <strong>60,96% para 27,74%</strong>.</p>
+
+                <dl class="row g-3 case-metrics">
+                    <div class="col-md-4">
+                        <dt class="case-metric-heading">Antes da abordagem</dt>
+                        <dd class="case-metric-value">60,96<span>%</span></dd>
+                        <dd class="case-metric-caption">Incidência média de não conformidades</dd>
+                    </div>
+                    <div class="col-md-4">
+                        <dt class="case-metric-heading">Após a abordagem</dt>
+                        <dd class="case-metric-value">27,74<span>%</span></dd>
+                        <dd class="case-metric-caption">Incidência média de não conformidades</dd>
+                    </div>
+                    <div class="col-md-4">
+                        <dt class="case-metric-heading case-metric-highlight">Redução média aproximada</dt>
+                        <dd class="case-metric-value">54,5<span>%</span></dd>
+                        <dd class="case-metric-caption">Redução relativa das não conformidades</dd>
+                    </div>
+                </dl>
+
+                <div class="reading-callout case-qualitative">
+                    <h4>Além dos números</h4>
+                    <p>A acessibilidade passou a ser tratada como parte do processo de desenvolvimento, com maior 
+                        padronização das interfaces, uma referência técnica comum para a equipe e identificação da
+                         necessidade de capacitação e acompanhamento contínuos.</p>
+                </div>
+            <div class="case-article-link">
+                    <a class="btn btn-primary" href="#artigo-accessibility-by-design">Ver artigo deste case <span aria-hidden="true">→</span></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
     <!-- ==================== PESQUISA ==================== -->
-<section id="pesquisa" class="reading-section research-section" aria-labelledby="titulo-pesquisa">
+    <section id="pesquisa" class="reading-section research-section" aria-labelledby="titulo-pesquisa">
     <div class="container">
         <p class="reading-label">PESQUISA</p>
         <h2 id="titulo-pesquisa" class="display-6 fw-bold">Pesquisa acadêmica</h2>
@@ -530,7 +605,7 @@
         <div class="row g-4" aria-labelledby="titulo-artigos">
             <div class="col-md-6">
 
-                <article class="project-card h-100 d-flex flex-column">
+                <article id="artigo-accessibility-by-design" tabindex="-1" class="project-card h-100 d-flex flex-column">
 
                     <div class="project-number">01</div>
 
